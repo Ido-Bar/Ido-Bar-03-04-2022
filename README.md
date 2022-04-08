@@ -2,8 +2,11 @@
 
 (describe) "user-story" [test] => intended behavior
 
+-------------------
+
 Test Animations
 
+---------------------
 
 (Check if logo animation is working) "visits the site and see the logo animation is working" [visit the site, check if the logo animation is working] => logo animation should be running
 
@@ -15,9 +18,11 @@ Test Animations
 
 (check if portfolio background animation stops working when it gets out of view) "visits the site, scrolls down to portfolio, then scrolls back up" [visit the site,scroll down to activate the animation, then scroll up and check if its working throughout the whole test] => portfolio background animation should be working when visible and not working when hidden
 
+--------------------------
 
 Test buttons
 
+--------------------------
 
 (check if dynamic whatsapp button is functional) "visits the site, and clicks the dynamic whatsapp button" [visit the site, click the dynamic whatsapp button] => should be redirected to a page that says "success"
 
@@ -29,8 +34,11 @@ Test buttons
 
 (check if social bar abra button is functional) "visits the site, scrolls down, clicks the abra button" [visit the site, click the abra button] => should be redirected to abra
 
+-------------------------
 
 Test input
+
+-------------------------
 
 
 (check if footer's text fields are functional) "visits the site, types info in the footer's text fields" [visit the site, type info in the footer's text fields] => the relevent info should be written in each text field
@@ -38,7 +46,11 @@ Test input
 (check if social media bar's text fields are functional) "visits the site, types info in the social media bar's text fields" [visit the site, type info in the footer's text field] => the relevent info should be written in each text field
 
 
+------------------------
+
 Test scroll functions
+
+------------------------
 
 
 (check if backToTop button is hidden when viewing the top of the page) "visits the site" [visit the site, check if backToTop button is hidden] => backToTop button should be hidden
@@ -53,9 +65,11 @@ Test scroll functions
 
 (check if footer is visible when viewing the top of the page, then check if footer is hidden when viewing the bottom of the page, then check if footer reapears when viewing top again) "visits the site, scrolls down, clicks backToTop button" [visit the site, check if footer is visible, scroll down, check if footer is hidden, scroll up, check if footer is visible] => footer should be hidden when viewing the bottom and visible when not viewing bottom
 
+-----------------------------
 
 Test switchPanel functions
 
+-----------------------------
 
 (check if clicking right arrow changes the current active dot in the upper panel) "visits the site, scrolls to upper panel, clicks right arrow button" [visit the site, click right arrow button, check if current active dot has changed] => second dot should be active
 
